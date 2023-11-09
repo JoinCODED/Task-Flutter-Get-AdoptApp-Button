@@ -8,11 +8,11 @@
 - Endpoints:
 
 ```
-Get pets, type: Get, https://coded-pets-api-crud.herokuapp.com/pets
-Create a new pet, type: Post, https://coded-pets-api-crud.herokuapp.com/pets
-Update a pet, type: Put, https://coded-pets-api-crud.herokuapp.com/pets/{petId}
-Delete a pet, type: Delete, https://coded-pets-api-crud.herokuapp.com/pets/{petId}
-Adopt a pet, type: Post, https://coded-pets-api-crud.herokuapp.com/pets/adopt/{petId}
+Get pets, type: Get, https://coded-pets-api-crud.eapi.joincoded.com/pets
+Create a new pet, type: Post, https://coded-pets-api-crud.eapi.joincoded.com/pets
+Update a pet, type: Put, https://coded-pets-api-crud.eapi.joincoded.com/pets/{petId}
+Delete a pet, type: Delete, https://coded-pets-api-crud.eapi.joincoded.com/pets/{petId}
+Adopt a pet, type: Post, https://coded-pets-api-crud.eapi.joincoded.com/pets/adopt/{petId}
 ```
 
 ### Part 1: Get Data
@@ -35,7 +35,7 @@ import "package:dio/dio.dart";
 7. Our endpoint is:
 
 ```
-Get, https://coded-pets-api-crud.herokuapp.com/pets
+Get, https://coded-pets-api-crud.eapi.joincoded.com/pets
 ```
 8. Dont forget to ass async and await
 9. Store the response of the request in a `Response` object.
